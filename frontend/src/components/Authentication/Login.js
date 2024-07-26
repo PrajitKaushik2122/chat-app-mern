@@ -111,11 +111,10 @@ const Login = () => {
         colorScheme="red"
         width="100%"
         onClick={() => {
-          setEmail("guest@example.com");
-          setPassword("123456");
+          alert("Hi from the developer ;)");
         }}
       >
-        Get Guest User Credentials
+        created by Prajit Kaushik
       </Button>
     </VStack>
   );
