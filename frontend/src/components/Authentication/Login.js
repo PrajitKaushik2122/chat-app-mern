@@ -107,14 +107,12 @@ const Login = () => {
         Login
       </Button>
       <Button
-        variant="solid"
-        colorScheme="red"
         width="100%"
         onClick={() => {
           alert("Hi from the developer ;)");
         }}
       >
-        created by Prajit Kaushik
+        created by Raghav Choudhary and Prajit Kaushik
       </Button>
     </VStack>
   );
